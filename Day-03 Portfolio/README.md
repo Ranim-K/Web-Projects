@@ -1,6 +1,6 @@
 # Website 03 – Digital Designer Portfolio
 
-![Landing Page Screenshot](./Portfolio.mp4)
+![portfolio Page Screenshot](./Portfolio.gif)
 
 This is the third project in a 10-website development journey using **HTML**, **CSS**, and **JavaScript**.
 
