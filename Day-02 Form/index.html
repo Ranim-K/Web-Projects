@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <form class="form">
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" required>
+            <span class="error-message">Please Enter a valid Email</span>
+        </div>
+
+        <div class="form-group">
+            <label for="name">Full name</label>
+            <div class="input-group">
+                <input type="text" id="firstname" placeholder="First name" required>
+                <input type="text" id="lastname" placeholder="Last name" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="name">Address</label>
+            <div class="input-group-address">
+                <input type="text" id="address01" placeholder="Street Address">
+                <input type="text" id="address02" placeholder="Office, State, Apt">
+            </div>
+        </div>
+        
+        <div class="form-group-city">
+            <div class="input-group-city">
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" id="city">
+                </div>
+                <div>
+                    <label for="state">State</label>
+                    <input type="text" id="state">
+                </div>
+                <div>
+                    <label for="zip">ZIP</label>
+                    <input type="text" id="zip">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <label for="card">Payment Details</label>
+            <input type="number" id="card" placeholder="0000 0000 0000 0000    MM/YY   CVV  ZIP">
+        </div>
+
+        <label for="name">What radio technologies are you using?</label>
+        <div class="checkbox-group">
+            <label>
+            <input type="checkbox" /> 2G
+            </label>
+            <label>
+            <input type="checkbox" /> 3G
+            </label>
+            <label>
+            <input type="checkbox" /> 4G LTE
+            </label>
+            <label>
+            <input type="checkbox" /> CAT-M
+            </label>
+        </div>
+
+        <label for="name">How much data do you expect to use each month?</label>
+        <div class="radio-group">
+            <label>
+            <input type="radio" name="data" /> 0-50 MB
+            </label>
+            <label>
+            <input type="radio" name="data"/> 50-250 MB
+            </label>
+            <label>
+            <input type="radio" name="data"/> 250 MB-1 GB
+            </label>
+            <label>
+            <input type="radio" name="data"/> 1GB+
+            </label>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Promo code</label>
+            <input type="text" id="message"></input>
+        </div>
+        <div class="end">
+            <div class="markting-email">
+                <input type="checkbox" id="email-markting">
+                <label for="email-markting">Sign me uo for annoying offers</label>
+            </div>
+             <button type="submit">Submit</button>
+        </div>
+    </form>
+
+</body>
+</html>
