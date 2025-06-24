@@ -1,6 +1,6 @@
 # Website 03 – Digital Designer Portfolio
 
-<video src="Portfolio.mp4" controls width="100%"></video>
+![Landing Page Screenshot](./Portfolio.mp4)
 
 This is the third project in a 10-website development journey using **HTML**, **CSS**, and **JavaScript**.
 
