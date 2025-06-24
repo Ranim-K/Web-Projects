@@ -1,6 +1,6 @@
 # Website 02 – Form Page
 
-![Form Page Screenshot](./result.png)
+![Form Page Screenshot](./Result.png)
 
 This is the second project in a series of 10 web development projects built using **HTML** and **CSS**.
 
