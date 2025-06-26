@@ -1,3 +1,21 @@
+:root {
+    --color-bg-body: #3c444c;
+    --color-container-bg: #efefef;
+    --color-text: #3c444c;
+    --color-accent: #0065F8;
+    --color-button-border: #89939e7e;
+    --color-operator-bg: rgba(255, 255, 255, 0.11);
+}
+
+.darkmode {
+    --color-bg-body: #efefef;
+    --color-container-bg: #3c444c;
+    --color-text: #ffffff;
+    --color-accent: #0065F8;
+    --color-button-border: #89939e7e;
+    --color-operator-bg: rgba(255, 255, 255, 0.11);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -6,14 +24,14 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #efefef;
+    background-color: var(--color-bg-body);
 }
 
 .container {
     width: 400px;
     min-height: 600px;
     height: 750px;
-    background-color: #3c444c;
+    background-color: var(--color-container-bg);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,50 +50,47 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: white;
-    list-style-type: none;
+    color: var(--color-text);
     font-size: 25px;
-    border-bottom: #0065F8 solid 3px;
+    border-bottom: var(--color-accent) solid 3px;
     padding-bottom: 2px;
-
 }
 
 .result {
     width: 100%;
     height: 190px;
     border-radius: 15px;
-    color: white;
+    color: var(--color-text);
     font-size: 2rem;
     text-align: right;
     padding: 20px;
-    margin-bottom: 30px; /* This is the space between result and buttons */
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     overflow-x: auto;
 }
 
-
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 10px; /* Space between columns */
+    column-gap: 10px;
     row-gap: 20px;  
 }
 
 button {
     width: 80px;
     height: 70px;
-    background-color: #3c444c;
-    border: solid #89939e7e 0.5px;
+    background-color: var(--color-container-bg);
+    border: solid var(--color-button-border) 0.5px;
     border-radius: 15px;
     font-size: 25px;
-    color: white;
+    color: var(--color-text);
 }
- 
+
 button:hover {
-    background-color: white;
-    color: #3c444c;
+    background-color: var(--color-text);
+    color: var(--color-container-bg);
 }
 
 button:active {
@@ -83,12 +98,57 @@ button:active {
 }
 
 .equal {
-  grid-column: span 2;
-  width: 100%;
-  background-color: #0065F8;
+    grid-column: span 2;
+    width: 100%;
+    background-color: var(--color-accent);
 }
 
-
 .operator {
-    background-color: rgba(255, 255, 255, 0.11);
+    background-color: var(--color-operator-bg);
+}
+
+#theme-switch {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#theme-switch svg{
+    fill: var(--text-color);
+}
+
+#theme-switch svg:last-child{
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}
+
+body,
+.container,
+button,
+.result,
+.nav a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#theme-switch {
+    transition: background-color 0.3s ease;
+}
+#theme-switch svg {
+    transition: fill 0.3s ease;
 }
