@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dejavu', sans-serif;
+    background-image: url(./background.jpg);
+}
+
+.container {
+    width: 350px;
+    height: 550px;
+    background-color: black;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(./night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.date {
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.raport {
+    color: white; 
+    z-index: 2;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    padding: 40px;
+}
+
+.calendar {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.month h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.weekdays, .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.weekdays div{
+    font-weight: bold;
+}
+
+.days div {
+    padding: 8px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.days div:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.days .active {
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+}
+
+.days .faded {
+    opacity: 0.4;
+}

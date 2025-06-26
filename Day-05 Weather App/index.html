@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="sript.js" defer></script>
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <div class="overlay"></div>
+    <div class="date">
+      <h6 id="day">Monday</h6>
+      <p id="date">26 June 2025</p>
+    </div>
+    <div class="raport">
+      <img src="cloudy.png" style="width: 20px; height: 20px;">
+      <h6 id="degree">26°C</h6>
+      <p id="raport">Mostly Cloudy</p>
+    </div> 
+    <div class="calendar">
+      <div class="month">
+        <h2>June, 2025</h2> <!-- Make sure this matches the actual month -->
+      </div>
+      <div class="weekdays">
+        <div>Sat</div>
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+      </div>
+      <div class="days">
+        <!-- Faded days (previous month) -->
+        <div class="faded">29</div>
+        <div class="faded">30</div>
+        <div class="faded">31</div>
+
+        <!-- Real days of current month -->
+        <div class="day" data-day="01">01</div>
+        <div class="day" data-day="02">02</div>
+        <div class="day" data-day="03">03</div>
+        <div class="day" data-day="04">04</div>
+        <div class="day" data-day="05">05</div>
+        <div class="day" data-day="06">06</div>
+        <div class="day" data-day="07">07</div>
+        <div class="day" data-day="08">08</div>
+        <div class="day" data-day="09">09</div>
+        <div class="day" data-day="10">10</div>
+        <div class="day" data-day="11">11</div>
+        <div class="day" data-day="12">12</div>
+        <div class="day" data-day="13">13</div>
+        <div class="day" data-day="14">14</div>
+        <div class="day" data-day="15">15</div>
+        <div class="day" data-day="16">16</div>
+        <div class="day" data-day="17">17</div>
+        <div class="day" data-day="18">18</div>
+        <div class="day" data-day="19">19</div>
+        <div class="day" data-day="20">20</div>
+        <div class="day" data-day="21">21</div>
+        <div class="day" data-day="22">22</div>
+        <div class="day" data-day="23">23</div>
+        <div class="day" data-day="24">24</div>
+        <div class="day" data-day="25">25</div>
+        <div class="day" data-day="26">26</div>
+        <div class="day" data-day="27">27</div>
+        <div class="day" data-day="28">28</div>
+        <div class="day" data-day="29">29</div>
+        <div class="day" data-day="30">30</div>
+        <div class="day" data-day="31">31</div>
+
+        <!-- Next month -->
+        <div class="faded">01</div>
+        <div class="faded">02</div>
+        <div class="faded">03</div>
+        <div class="faded">04</div>
+        <div class="faded">05</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
