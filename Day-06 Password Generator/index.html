@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="type">
+            <label for="character" class="radio-label">
+                <input type="radio" id="character" name="countType">
+                Character
+            </label>
+            <label for="words" class="radio-label">
+                <input type="radio" id="words" name="countType">
+                Words
+            </label>
+        </div>
+        <div class="parameters">
+            <label>
+            Length (<span id="lengthValue">12</span>)
+                <input type="range" name="length" min="4" max="40" value="12">
+            </label>
+
+             <label>
+            Digits (<span id="lengthValue">12</span>)
+                <input type="range" name="length" min="4" max="40" value="12">
+            </label>
+             <label>
+            Symbols (<span id="lengthValue">12</span>)
+                <input type="range" name="length" min="4" max="40" value="12">
+            </label>
+        </div>
+        <div class="shape">
+            <img src="assets/draw.jpg" alt="how secure is the password">
+        </div>
+        <div class="password-input">
+            <input type="text">
+        </div>
+        <div class="progress">
+                <progress class="progress" id="file" value="32" max="100"> 32% </progress>
+        </div>
+        <div class="buttons">
+            <button class="copy">Copy</button>
+            <button class="use-password">Use Password</button>
+        </div>
+    </div>
+</body>
+</html>

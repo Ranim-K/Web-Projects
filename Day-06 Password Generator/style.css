@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dejavu', sans-serif;
+    background-color: #e6e3e6;
+}
+
+.container {
+    width: 350px;
+    height: 600px;
+    background-color: #454684;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.type {
+    display: flex;
+    justify-content: center;    /* Horizontal centering */
+    align-items: center;        /* Vertical alignment within container */
+    gap: 30px;                  /* Space between options */
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;  /* Vertical alignment between radio and text */
+    gap: 5px;              /* Space between radio and label */
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+.parameters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+}
+
+input[type="range"] {
+    width: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.shape {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;      
+}
+
+.shape img {
+    width: 200px;
+    height: 200px;
+}
+
+.password-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.password-input input{
+    width: 90%;
+    height: 40px;
+    padding: 10px 15px ;
+}
+
+.progress {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+}
+
+.progress progress {
+    width: 90%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 10px;
+}
+
+.copy {
+    width: 50%;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+}
+
+.use-password {
+    width: 50%;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+}
+
+.copy:hover, .use-password:hover {
+    background-color: #454684;
+    color: white;
+}
