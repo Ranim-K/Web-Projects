@@ -35,8 +35,4 @@ This project focuses on developing a **functional calculator** while practicing:
 - **HTML5** – semantic structure  
 - **CSS3** – modern layout with Flexbox & Grid  
 - **JavaScript** – event handling and theme toggle logic
-
----
-
-## 📁 File Structure
-
+ 
