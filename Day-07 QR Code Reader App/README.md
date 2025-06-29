@@ -73,10 +73,6 @@ This project is focused on practicing **file handling**, **canvas manipulation**
 - DOM manipulation and dynamic content rendering
 - Improving UX with container transitions and visual feedback
 
----
-
-## 📸 Screenshot
-
 ![QR Code Reader App Screenshot](./assets/qr-reader-preview.gif)
 
 ---
