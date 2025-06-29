@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Popping', sans-serif;
+    background-color: #7594ec;
+}
+
+.container {
+    width: 400px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 25px;
+    color: #5c6274;
+}
+
+.container p {
+    text-align: center;
+    color: #5c6274d5;
+    margin-top: 5px;
+}
+
+.upload-space {
+    width: 90%;
+    height: 180px;
+    background-color: #cad8ffa2;
+    border-radius: 15px;
+    border: dotted 2px #ccc;
+    margin: 0 auto;
+    margin-top: 55px;
+    padding: 10px;
+}
+
+.upload-space:hover {
+    background-color: #cad8ff;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+}
+
+.texts h4 {
+    font-size: 16px;
+    color: #5c6274d5;
+}
+
+.texts button {
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #7594ec;
+    color: white;
+}
+
+.texts button:hover{
+    background-color: #7595ec9f;
+    color: #fff;
+}
+
+.container2 {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.code {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.result textarea {
+    width: 100%;
+    height: 100px;
+    border: dotted 1px #ccc;
+    border-radius: 20px;
+    background-color: #7594ec;
+    outline: none;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+}
+
+.buttons  { 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.buttons button {
+    width: 70%;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7594ec;
+    color: white;
+}
+
+.buttons button:hover {
+    background-color: #7595eca6;
+}
