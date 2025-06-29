@@ -9,44 +9,57 @@
 </head>
 <body>
     <div class="container">
-        <div class="type">
-            <label for="character" class="radio-label">
-                <input type="radio" id="character" name="countType">
-                Character
-            </label>
-            <label for="words" class="radio-label">
-                <input type="radio" id="words" name="countType">
-                Words
-            </label>
+        <div class="title">
+            <h2>Password Generator</h2>
+            <p>Generate Strong Unique Passwords</p> 
         </div>
-        <div class="parameters">
-            <label>
-            Length (<span id="lengthValue">12</span>)
-                <input type="range" name="length" min="4" max="40" value="12">
-            </label>
+        <div class="password">
+             <input type="text" class="password-text" />
+             <button id="copy">Copy</button>
+             <button id="repeat">↻</button>
+             <p class="status-box"><span style="font-weight: bold;">Moderate:</span> Not bad, but not Fort Knox either.</p>
+        </div>
+        <div class="settings">
+            <div class="range-label-row">
+            <label for="range">Password Length</label>
+            <span class="range-value">12</span>
+            </div>
+            <input type="range" id="range" min="6" max="32" value="12" />
 
-             <label>
-            Digits (<span id="lengthValue">12</span>)
-                <input type="range" name="length" min="4" max="40" value="12">
+
+        <div class="setting-row">
+            <span>Include Uppercase Letters</span>
+            <label class="switch">
+            <input type="checkbox" id="upper" checked>
+            <span class="slider round"></span>
             </label>
-             <label>
-            Symbols (<span id="lengthValue">12</span>)
-                <input type="range" name="length" min="4" max="40" value="12">
+        </div>
+
+        <div class="setting-row">
+            <span>Include Lowercase Letters</span>
+            <label class="switch">
+            <input type="checkbox" id="lower">
+            <span class="slider round"></span>
             </label>
         </div>
-        <div class="shape">
-            <img src="assets/draw.jpg" alt="how secure is the password">
+
+        <div class="setting-row">
+            <span>Include Numbers</span>
+            <label class="switch">
+            <input type="checkbox" id="numbers">
+            <span class="slider round"></span>
+            </label>
         </div>
-        <div class="password-input">
-            <input type="text">
+
+        <div class="setting-row">
+            <span>Include Symbols</span>
+            <label class="switch">
+            <input type="checkbox" id="symbols">
+            <span class="slider round"></span>
+            </label>
         </div>
-        <div class="progress">
-                <progress class="progress" id="file" value="32" max="100"> 32% </progress>
         </div>
-        <div class="buttons">
-            <button class="copy">Copy</button>
-            <button class="use-password">Use Password</button>
-        </div>
+
     </div>
 </body>
 </html>
