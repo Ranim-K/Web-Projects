@@ -75,14 +75,5 @@ This project is focused on practicing **file handling**, **canvas manipulation**
 
 ![QR Code Reader App Screenshot](./assets/qr-reader-preview.gif)
 
----
-
-## 📌 Next Steps (Optional)
-
-- Add webcam support to scan QR codes live  
-- Handle multiple QR codes in a single image  
-- Auto-detect QR region and zoom for better accuracy
-
----
 
 **🔗 Try it out with your own QR code images and see the magic happen!**
