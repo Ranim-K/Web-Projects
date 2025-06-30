@@ -1,6 +1,6 @@
 # Website 04 – Calculator App 🧮
 
-![Calculator Screenshot](./Final%20Gif.gif) <!-- Replace with actual screenshot path -->
+![Calculator Screenshot](./assets/Final%20Gif.gif) <!-- Replace with actual screenshot path -->
 
 This is the **fourth project** in a 10-website development journey using **HTML**, **CSS**, and **JavaScript**.
 
