@@ -1,6 +1,6 @@
 # Website 05 – Weather Calendar App 🌦️📅
 
-![Weather App Screenshot](./Final%20Gif.gif) 
+![Weather App Screenshot](./assets/Final%20Gif.gif) 
 
 This is the **fifth project** in a 10-website development journey using **HTML**, **CSS**, and **JavaScript**.
 

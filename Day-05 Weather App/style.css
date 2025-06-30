@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Dejavu', sans-serif;
-    background-image: url(./background.jpg);
+    background-image: url(./assets/background.jpg);
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(./night.jpg);
+    background-image: url(./assets/night.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
