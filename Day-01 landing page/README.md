@@ -1,6 +1,6 @@
 # Website 01 – Landing Page
 
-![Landing Page Screenshot](./screenchot.png)
+![Landing Page Screenshot](./Assets/screenchot.png)
 
 This is the fisrt web development project in serie of 10 Projects built using **HTML** and **CSS**.
 
