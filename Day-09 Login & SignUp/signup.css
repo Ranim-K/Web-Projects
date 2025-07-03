@@ -1,0 +1,15 @@
+.titles {
+    font-family:  "Tinos", serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 100;
+}

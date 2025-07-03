@@ -81,6 +81,7 @@ body {
 }
 
 .logo {
+    font-family: 'Tinoc', serif;
     text-align: center;
     font-size: 20px;
 }
@@ -110,10 +111,15 @@ body {
     white-space: nowrap;
 }
 
+.titles h1{
+    font-weight: 300;
+    font-size: 45px;
+}
+
 .form-fields {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
 }
 
 .password, .email {
@@ -168,4 +174,10 @@ body {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 100;
 }
