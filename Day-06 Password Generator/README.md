@@ -2,6 +2,9 @@
 
 ![Password Generator Screenshot](./assets/Final%20Gif.gif)
 
+[🌐 Visit Password Generator](https://ranim-k.github.io/Web-Projects/Day-06%20Password%20Generator/)
+
+
 This is the **sixth project** in a 10-website development journey using **HTML**, **CSS**, and **JavaScript**.
 
 ---

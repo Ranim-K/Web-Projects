@@ -2,6 +2,8 @@
 
 ![QR Code Reader Screenshot](./assets/Final%20Gif.gif)
 
+[🌐 Visit QR Code Reader App](https://ranim-k.github.io/Web-Projects/Day-07%20QR%20Code%20Reader%20App/)
+
 This is the **seventh project** in a 10-website development journey using **HTML**, **CSS**, and **JavaScript**.
 
 ---
