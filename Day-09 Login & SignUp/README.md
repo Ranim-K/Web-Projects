@@ -2,6 +2,8 @@
 
 ![Auth Page Screenshot](./assets/Final%20Gif.gif)
 
+[🌐 Visit Auth Registration Page](https://ranim-k.github.io/Web-Projects/Day-09%20Login%20%26%20SignUp/)
+
 This is the **ninth project** in a 10-website development journey using **HTML**, **CSS**, and **JavaScript**.
 
 ---

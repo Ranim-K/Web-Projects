@@ -2,6 +2,8 @@
 
 ![Quiz App Preview](./assets/Final%20Gif.gif)
 
+[🌐 Visit Interactive Quiz Wizard](https://ranim-k.github.io/Web-Projects/Day-10%20Quiz/)
+
 This is the **tenth & final project** in my *“10 Websites in HTML, CSS & JavaScript”* journey.  
 It’s a fully-interactive **multi-step quiz** that showcases dynamic DOM manipulation, state management, and polished UI details.
 
