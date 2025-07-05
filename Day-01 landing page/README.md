@@ -2,7 +2,7 @@
 
 ![Landing Page Screenshot](./Assets/screenchot.png)
 
-[🌐 Visit Landing Page](https://ranim-k.github.io/Web-Projects/Day-01%20Landing%20Page/)
+[🌐 Visit Landing Page](https://ranim-k.github.io/Web-Projects/Day-01%20landing%20page/)
 
 This is the fisrt web development project in serie of 10 Projects built using **HTML** and **CSS**.
 
