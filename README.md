@@ -21,14 +21,14 @@
 |:-:|---------|:-------:|-----------|-----------------|
 | 01 | **Landing Page** | <img src="./Day-01 landing page/Assets/screenchot.png" width="120" alt="Landing Page"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-01%20Landing%20Page/) | HTML · CSS |
 | 02 | **Form Page** | <img src="./Day-02 Form/assets/Result.png" width="120" alt="Form Page"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-02%20Form%20Page/) | HTML · CSS |
-| 03 | **Digital Designer Portfolio** | <img src="Day-03 Digital Designer Portfolio/assets/Portfolio.gif" width="120" alt="Portfolio"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-03%20Digital%20Designer%20Portfolio/) | HTML · CSS · JS |
-| 04 | **Calculator App** | <img src="Day-04 Calculator App/assets/Final Gif.gif" width="120" alt="Calculator"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-04%20Calculator%20App/) | HTML · CSS · JS |
-| 05 | **Weather Calendar** | <img src="Day-05 Weather Calendar App/assets/Final Gif.gif" width="120" alt="Weather"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-05%20Weather%20Calendar%20App/) | HTML · CSS · JS · WeatherAPI |
-| 06 | **Password Generator** | <img src="Day-06 Password Generator App/assets/Final Gif.gif" width="120" alt="Password"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-06%20Password%20Generator%20App/) | HTML · CSS · JS |
-| 07 | **QR Code Reader** | <img src="Day-07 QR Code Reader App/assets/Final Gif.gif" width="120" alt="QR Reader"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-07%20QR%20Code%20Reader%20App/) | HTML · CSS · JS · jsQR |
-| 08 | **Countdown Launch Page** | <img src="Day-08 Countdown Launch Page/assets/Final Gif.gif" width="120" alt="Countdown"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-08%20Countdown%20Launch%20Page/) | HTML · CSS · JS |
-| 09 | **Auth Registration Page** | <img src="Day-09 Auth Registration Page/assets/Final Gif.gif" width="120" alt="Auth"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-09%20Auth%20Registration%20Page/) | HTML · CSS · JS |
-| 10 | **Interactive Quiz Wizard** | <img src="Day-10 Interactive Quiz Wizard/assets/Final Gif.gif" width="120" alt="Quiz"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-10%20Interactive%20Quiz%20Wizard/) | HTML · CSS · JS |
+| 03 | **Digital Designer Portfolio** | <img src="./Day-03 Portfolio/assets/Portfolio.gif" width="120" alt="Portfolio"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-03%20Digital%20Designer%20Portfolio/) | HTML · CSS · JS |
+| 04 | **Calculator App** | <img src="./Day-04 Calculator/assets/Final Gif.gif" width="120" alt="Calculator"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-04%20Calculator%20App/) | HTML · CSS · JS |
+| 05 | **Weather Calendar** | <img src="./Day-05 Weather App/assets/Final Gif.gif" width="120" alt="Weather"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-05%20Weather%20Calendar%20App/) | HTML · CSS · JS · WeatherAPI |
+| 06 | **Password Generator** | <img src="./Day-06 Password Generator/assets/Final Gif.gif" width="120" alt="Password"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-06%20Password%20Generator%20App/) | HTML · CSS · JS |
+| 07 | **QR Code Reader** | <img src="./Day-07 QR Code Reader App/assets/Final Gif.gif" width="120" alt="QR Reader"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-07%20QR%20Code%20Reader%20App/) | HTML · CSS · JS · jsQR |
+| 08 | **Countdown Launch Page** | <img src="./Day-08 CountDown/assets/Final Gif.gif" width="120" alt="Countdown"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-08%20Countdown%20Launch%20Page/) | HTML · CSS · JS |
+| 09 | **Auth Registration Page** | <img src="./Day-09 Login & SignUp/assets/Final Gif.gif" width="120" alt="Auth"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-09%20Auth%20Registration%20Page/) | HTML · CSS · JS |
+| 10 | **Interactive Quiz Wizard** | <img src="./Day-10 Quiz/assets/Final Gif.gif" width="120" alt="Quiz"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-10%20Interactive%20Quiz%20Wizard/) | HTML · CSS · JS |
 
 > **Tip:** If thumbnails don’t load on GitHub, open the Live Demo to view each project in action.
 
