@@ -2,6 +2,8 @@
 
 ![Form Page Screenshot](./assets/Result.png)
 
+[🌐 Visit Form Page](https://ranim-k.github.io/Web-Projects/Day-02%20Form/)
+
 This is the second project in a series of 10 web development projects built using **HTML** and **CSS**.
 
 ---
