@@ -2,6 +2,8 @@
 
 ![portfolio Page Screenshot](./assets/Portfolio.gif)
 
+[🌐 Visit Portfolio Page](https://ranim-k.github.io/Web-Projects/Day-03%20Portfolio/)
+
 This is the third project in a 10-website development journey using **HTML**, **CSS**, and **JavaScript**.
 
 ---
