@@ -2,6 +2,8 @@
 
 ![Calculator Screenshot](./assets/Final%20Gif.gif) <!-- Replace with actual screenshot path -->
 
+[🌐 Visit Calculator App](https://ranim-k.github.io/Web-Projects/Day-04%20Calculator/)
+
 This is the **fourth project** in a 10-website development journey using **HTML**, **CSS**, and **JavaScript**.
 
 ---
