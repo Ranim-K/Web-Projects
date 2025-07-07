@@ -19,7 +19,7 @@
 
 | # | Project | Preview | Live Demo | Tech Highlights |
 |:-:|---------|:-------:|-----------|-----------------|
-| 01 | **Landing Page** | <img src="./Day-01 landing page/Assets/screenchot.png" width="120" alt="Landing Page"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-01%20Landing%20Page/) | HTML · CSS |
+| 01 | **Landing Page** | <img src="./Day-01 landing page/Assets/screenchot.png" width="120" alt="Landing Page"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-01%20landing%20page/) | HTML · CSS |
 | 02 | **Form Page** | <img src="./Day-02 Form/assets/Result.png" width="120" alt="Form Page"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-02%20Form%20Page/) | HTML · CSS |
 | 03 | **Digital Designer Portfolio** | <img src="./Day-03 Portfolio/assets/Portfolio.gif" width="120" alt="Portfolio"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-03%20Digital%20Designer%20Portfolio/) | HTML · CSS · JS |
 | 04 | **Calculator App** | <img src="./Day-04 Calculator/assets/Final Gif.gif" width="120" alt="Calculator"/> | [Launch 🚀](https://ranim-k.github.io/Web-Projects/Day-04%20Calculator%20App/) | HTML · CSS · JS |
